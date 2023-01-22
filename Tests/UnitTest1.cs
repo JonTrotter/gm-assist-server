@@ -1,11 +1,13 @@
+
 namespace Tests
 {
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void TestReference()
         {
-
+            WeatherForecast wf = new();
+            Assert.True(wf.GetTrue());
         }
     }
 }
