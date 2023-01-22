@@ -12,7 +12,7 @@ namespace gm_assist_server
 
         public bool GetTrue()
         {
-            return true;
+            return false;
         }
     }
 }
